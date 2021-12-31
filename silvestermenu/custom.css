@@ -1,0 +1,57 @@
+.slides section{
+	top: 10px !important;
+}
+
+.slides section.end{
+	top: 40% !important;
+}
+.slides {
+  margin-top: 1rem !important;
+  height: 100% !important;
+  width: 100% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+p {
+  opacity: .2;
+  font-size: 1rem !important;
+  margin: 0 !important;
+}
+
+audio {
+  opacity: 0;
+}
+
+.title {
+  margin-top: 2vh;
+}
+
+.backgrounds {
+  top: 15px !important;
+}
+
+.controls {
+  height: 100% !important;
+  width: 100% !important;
+  bottom: 0 !important;
+  right: 0 !important;
+}
+
+.navigate-left {
+  right: 51% !important;
+  left: auto !important;
+}
+
+.navigate-right {
+  right: auto !important;
+  left: 51% !important;
+}
+
+.controls-arrow::before, .controls-arrow::after {
+  width: 2em !important;
+  height: 0.4em !important;
+}
+
+.slide-background.title .slide-background-content{
+  background-position: 100% 100%;
+}
